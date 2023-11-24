@@ -1,5 +1,22 @@
 .header {
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(15, 15, 15);
+}
+
+.title {
+  color: blue;
+}
+
+.nav {
+  margin-right: 20px;
+  color: rgb(205, 205, 205);
+  text-decoration: underline;
+}
+
+.nav:hover {
+  cursor: pointer;
 }
 .bo {
   font-family: Arial, sans-serif;
@@ -10,9 +27,7 @@
   border-radius: 15px;
   margin-left: 30px;
 }
-header {
-  margin-bottom: 20px;
-}
+
 .title {
   margin-left: 80px;
 }
@@ -20,4 +35,18 @@ header {
   margin-left: 30px;
   color: rgb(168, 168, 168);
   margin-top: 30px;
+}
+
+.foo {
+  color: white;
+  text-align: center;
+}
+
+.pe {
+  color: rgb(206, 206, 206);
+  padding-top: 5cm;
+  text-align: center;
+}
+.footer {
+  background-color: rgb(10, 10, 10);
 }
