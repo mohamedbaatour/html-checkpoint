@@ -13,6 +13,11 @@
   margin-right: 20px;
   color: rgb(205, 205, 205);
   text-decoration: underline;
+  display: inline;
+}
+
+.ul {
+  display: inline;
 }
 
 .nav:hover {
